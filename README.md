@@ -1,7 +1,7 @@
 # DNSMASQ
 
 [![Build Status](https://github.com/Scalified/docker-dnsmasq/actions/workflows/docker-image.yml/badge.svg)](https://github.com/Scalified/docker-dnsmasq/actions)
-[![Docker Pulls](https://img.shields.io/docker/pulls/scalified/docker-dnsmasq.svg)](https://hub.docker.com/r/scalified/dnsmasq)
+[![Docker Pulls](https://img.shields.io/docker/pulls/scalified/dnsmasq.svg)](https://hub.docker.com/r/scalified/dnsmasq)
 
 ## Description
 
