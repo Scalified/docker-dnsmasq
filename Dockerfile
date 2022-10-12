@@ -7,7 +7,7 @@ ARG WEBPROC_VERSION=0.4.0
 ENV WEBPROC_URL https://github.com/jpillora/webproc/releases/download/v$WEBPROC_VERSION/webproc_${WEBPROC_VERSION}_linux_amd64.gz
 
 RUN apk update \
-        && apk --no-cache add dnsmasq \
+        && apk --no-cache add dnsmasq bind-tools \
         && apk add --no-cache --virtual .build-deps curl \
         && curl -sL $WEBPROC_URL | gzip -d - > /usr/local/bin/webproc \
         && chmod +x /usr/local/bin/webproc \
